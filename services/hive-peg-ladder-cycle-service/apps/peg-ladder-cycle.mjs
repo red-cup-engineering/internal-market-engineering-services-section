@@ -6,7 +6,7 @@ import { observeHiveInternalMarket } from "@red-cup-engineering/observe-hive-int
 import { derivePegLadder, restingOrderRef } from "@red-cup-engineering/derive-peg-ladder-service";
 import { applyPegLadder } from "@red-cup-engineering/apply-peg-ladder-service";
 import { reconcilePegLadderFills } from "@red-cup-engineering/reconcile-peg-ladder-fills-service";
-import { put } from "@red-cup-engineering/semiotic-eavt-services-section/store";
+import { put } from "@red-cup-engineering/semiotic-eavt-engineering-services-section/store";
 import { stripUnitSuffix, compareDecimalStrings } from "@red-cup-engineering/computer-data-engineering-services-section/number/decimal-string";
 
 /** True when decimal string `a` is strictly below decimal string `b`. */

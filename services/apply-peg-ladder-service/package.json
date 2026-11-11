@@ -25,9 +25,9 @@
   ],
   "dependencies": {
     "@red-cup-engineering/metrologic": "workspace:*",
-    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/semiotic-eavt-engineering-services-section": "^0.6.0",
     "@red-cup-engineering/computer-data-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/eavt-services-section": "workspace:*",
+    "@red-cup-engineering/eavt-engineering-services-section": "^0.14.2",
     "@red-cup-engineering/computer-file-engineering-services-section": "workspace:*",
     "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
     "@red-cup-engineering/hive-fleet-operations-service": "workspace:*",

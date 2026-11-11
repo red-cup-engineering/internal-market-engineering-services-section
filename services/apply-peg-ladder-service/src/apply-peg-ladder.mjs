@@ -1,7 +1,7 @@
 import { readFileText } from "@red-cup-engineering/computer-file-engineering-services-section/read-file";
 import { limitOrderCancel, limitOrderCreate } from "@red-cup-engineering/hive-blockchain-client-service/ops.mjs";
 import { submitToSigner } from "@red-cup-engineering/hive-fleet-operations-service/signer";
-import { put } from "@red-cup-engineering/semiotic-eavt-services-section/store";
+import { put } from "@red-cup-engineering/semiotic-eavt-engineering-services-section/store";
 import { addDecimalStrings, compareDecimalStrings } from "@red-cup-engineering/computer-data-engineering-services-section/number/decimal-string";
 
 const REQUIRED_ADMITTED_OPERATIONS = Object.freeze(["limit_order_create", "limit_order_cancel"]);

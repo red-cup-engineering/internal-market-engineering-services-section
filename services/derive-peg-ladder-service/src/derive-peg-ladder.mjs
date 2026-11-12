@@ -5,7 +5,7 @@ import {
   divideDecimalStrings,
   negateDecimalString as negate,
   compareDecimalStrings as compare,
-} from "@red-cup-engineering/computer-data-engineering-services-section/number/decimal-string";
+} from "@red-cup-engineering/exact-number-data-service/decimal-string";
 
 const ASSET_DECIMALS = 3;
 const DEFAULT_MIN_RUNG_NOTIONAL_HBD = "0.001";

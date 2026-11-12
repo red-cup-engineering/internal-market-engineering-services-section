@@ -1,5 +1,5 @@
 import { RpcClient } from "@red-cup-engineering/hive-blockchain-client-service/rpc.mjs";
-import { stripUnitSuffix } from "@red-cup-engineering/computer-data-engineering-services-section/number/decimal-string";
+import { stripUnitSuffix } from "@red-cup-engineering/exact-number-data-service/decimal-string";
 
 const DEFAULT_NODES = Object.freeze(["https://api.hive.blog", "https://api.openhive.network"]);
 const DEFAULT_LIMIT = 1000;

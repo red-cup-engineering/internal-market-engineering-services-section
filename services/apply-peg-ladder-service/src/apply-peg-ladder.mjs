@@ -2,7 +2,7 @@ import { readFileText } from "@red-cup-engineering/computer-file-engineering-ser
 import { limitOrderCancel, limitOrderCreate } from "@red-cup-engineering/hive-blockchain-client-service/ops.mjs";
 import { submitToSigner } from "@red-cup-engineering/hive-fleet-operations-service/signer";
 import { put } from "@red-cup-engineering/semiotic-eavt-engineering-services-section/store";
-import { addDecimalStrings, compareDecimalStrings } from "@red-cup-engineering/computer-data-engineering-services-section/number/decimal-string";
+import { addDecimalStrings, compareDecimalStrings } from "@red-cup-engineering/exact-number-data-service/decimal-string";
 
 const REQUIRED_ADMITTED_OPERATIONS = Object.freeze(["limit_order_create", "limit_order_cancel"]);
 const DEFAULT_EXPIRY_SECONDS = 86400;
